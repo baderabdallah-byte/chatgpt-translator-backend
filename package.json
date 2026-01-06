@@ -1,0 +1,22 @@
+{
+  "name": "bader-document-translator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "npx serve . -l 5173",
+    "dev": "npm run build && npm run serve",
+    "backend": "node server.js"
+  },
+  "dependencies": {
+    "docx": "^8.5.0",
+    "marked": "^12.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "serve": "^14.2.4"
+  }
+}
